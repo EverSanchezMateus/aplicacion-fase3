@@ -1,0 +1,137 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: rgb(30, 128, 6);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.informacion {
+    margin-bottom: 30px;
+}
+
+.productos-destacados {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.producto {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    flex: 1 0 30%; /* Cada producto ocupa un 30% del ancho */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+/* styles.css */
+
+.productos-container {
+    display: flex; /* Usar flexbox para disposición en línea */
+    justify-content: space-between; /* Espacio entre los productos */
+    flex-wrap: wrap; /* Permitir que los productos se ajusten en línea */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+.producto {
+    border: 1px solid #ccc; /* Bordes para los productos */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px; /* Espacio interno */
+    text-align: center; /* Centrar el texto */
+    width: 25%; /* Ancho de cada producto (puedes ajustar este valor) */
+    margin-bottom: 20px; /* Margen inferior entre filas */
+}
+
+.producto img {
+    max-width: 95%; /* La imagen no debe ser más grande que su contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+.user-info {
+    background: #35424a; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 20px; /* Espaciado debajo */
+    text-align: right; /* Alinear el texto a la derecha */
+}
+/* Contenedor de los productos */
+.product-container {
+    display: flex;           /* Usar flexbox para alinear los productos */
+    justify-content: space-between; /* Espaciado entre los productos */
+    flex-wrap: wrap;        /* Permite que los productos se ajusten a varias filas */
+    margin: 20px;          /* Espacio alrededor del contenedor */
+}
+
+/* Estilo para cada tarjeta de producto */
+.product-card {
+    background-color: #f9f9f9; /* Fondo gris claro */
+    border: 1px solid #ccc;    /* Bordes gris */
+    border-radius: 8px;        /* Bordes redondeados */
+    padding: 10px;             /* Espacio interno */
+    text-align: center;        /* Centramos el texto */
+    margin: 10px;              /* Espacio entre tarjetas */
+    flex: 0 1 30%;              /* Flexibilidad de las tarjetas, 30% del ancho */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para las imágenes de los productos */
+.product-image {
+    max-width: 40%; /* La imagen no puede exceder el 100% del contenedor */
+    height: auto;    /* Mantiene la proporción de la imagen */
+    border-radius: 5px; /* Bordes redondeados para las imágenes */
+}
+
+/* Estilo para el botón de ver producto */
+.view-product-button {
+    display: inline-block;
+    margin-top: 10px;  /* Margen superior para el botón */
+    padding: 8px 15px;  /* Espaciado interno para el botón */
+    background-color: #007BFF; /* Color de fondo azul */
+    color: white;       /* Color del texto blanco */
+    border: none;       /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado en el texto */
+}
+
+.view-product-button:hover {
+    background-color: #0056b3; /* Color de fondo más oscuro al pasar el ratón */
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
