@@ -7,12 +7,12 @@ include('includes/db.php'); // Asegúrate de que este archivo esté correctament
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Ferretería XYZ</title>
+    <title>Ferretería Hardware Store Nuts and Bolts</title>
     <link rel="stylesheet" href="css/styles.css"> <!-- Asegúrate de tener el archivo CSS -->
 </head>
 <body>
     <header>
-        <h1>Bienvenido a Ferretería XYZ</h1>
+        <h1>Hardware Store Nuts and Bolts</h1>
         <nav>
             <ul>
                 <li><a href="index.php">Inicio</a></li>
